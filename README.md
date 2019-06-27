@@ -20,7 +20,13 @@ var grade1 = 7.0
 var grade2 = 9.0
 var grade3 = 5.0
 
-// your code here
+var yourGrade = 8.0
+
+if yourGrade >= 7 {
+print("above average")
+} else if yourGrade <= 7 {
+print("below average")
+}
 ```
 
 ***
@@ -31,7 +37,11 @@ You are given a number. Print even if the number is even or odd otherwise.
 ```swift
 let number = 2
 
-// your code here
+// if number % 2 == 0 {
+print("even")
+} else {
+print("odd")
+}
 ```
 
 ***
@@ -43,7 +53,12 @@ You are given two numbers `a` and `b`. Print `"divisible"` if `a` is divisible b
 var a = 12
 var b = 3
 
-// code here
+// 
+if a % b == 0 {
+print("divisible")
+} else {
+print("not divisble")
+}
 ```
 
 ***
@@ -56,7 +71,11 @@ var a = 2
 var b = 3
 var c = 2
 
-// your code here
+// if a == b || a == c || b == c {
+print("At least two variables have the same value")
+} else {
+print("All the values are different")
+}
 ```
 
 ***
@@ -68,7 +87,13 @@ You are working on a smart-fridge. The smart-fridge knows how old the eggs and b
 var baconAge = 6 // the bacon is 6 days old
 var eggsAge = 12 // eggs are 12 days old
 
-// your code here
+if baconAge <= 7 && eggsAge <= 21 {
+print("you can cook bacon and eggs")
+} else if baconAge >= 7 {
+print("throw out bacon")
+} else if eggsAge >= 21 {
+print("throw out eggs")
+}
 ```
 
 ***
@@ -80,7 +105,17 @@ The above rule is valid except that every 100 years special rules apply. Years t
 ```swift
 let year = 2014
 
-// your code here
+
+
+// if year % 400 == 0 {
+print("Leap year")
+} else if year % 100 == 0 {
+print("Not leap year")
+} else if year % 4 == 0 {
+print("Leap year")
+} else {
+print("Not a leap year")
+}
 ```
 
 ***
@@ -91,7 +126,11 @@ If you use `random()` it will give you a random number within a specified range.
 ```swift
 let randomNum = Int.random(in: 0...100)
 
-// your code here
+// If (randomNum % 2 == 0){
+print("Heads")
+} else {
+print("Tails")
+}
 ```
 
 Hint: use an if/else block along with the `%` operator
@@ -107,7 +146,14 @@ var b = 6
 var c = 3
 var d = 4
 
-// your code here
+//
+
+if var == 3 {
+print("This is the smallest one")
+} else {
+print("Not the smallest one")
+}
 ```
 
 ***
+
